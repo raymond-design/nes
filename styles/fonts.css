@@ -1,0 +1,15 @@
+/* /styles/fonts.css */
+
+@font-face {
+    font-family: 'Spinnaker';
+    src: url('../fonts/spinnaker.ttf') format('truetype'); /* Update the font file path and format if necessary */
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  /* Apply the Spinnaker font to the desired elements */
+  body {
+    font-family: 'Spinnaker', sans-serif;
+  }
+  

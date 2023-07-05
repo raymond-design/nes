@@ -5,14 +5,6 @@ import { motion } from "framer-motion";
 import { ChevronDown } from "react-feather";
 
 export default function Hero() {
-  const handleClick = () => {
-    // Logic to scroll the page down
-    window.scrollTo({
-      top: window.innerHeight,
-      behavior: "smooth",
-    });
-  };
-
   return (
     <div>
       <Head>
@@ -35,13 +27,6 @@ export default function Hero() {
           </div>
           <div className="mt-10"></div>
         </EaseInTransition>
-
-        {/* Floating squares */}
-        <div className="floating-squares">
-          <div className="square square-1"></div>
-          <div className="square square-2"></div>
-          <div className="square square-3"></div>
-        </div>
 
         {/* Discover What We Do */}
         <motion.div

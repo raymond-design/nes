@@ -48,13 +48,54 @@ const ClubHistory = () => {
         />
       </Head>
         <div className="bg-gray-900 relative overflow-y-scroll h-screen">
+        <div className="relative isolate overflow-hidden sm:py-8">
+            <div
+            className="mt-24 hidden sm:absolute sm:-top-10 sm:right-1/4 sm:-z-10 sm:mr-18 sm:block sm:transform-gpu sm:blur-3xl"
+            aria-hidden="true"
+            >
+            <div
+                className="mt-10 aspect-[900/845] w-[68.5625rem] bg-gradient-to-tr from-[#ff4694] to-[#776fff] opacity-40"
+                style={{
+                clipPath:
+                    'polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)',
+                }}
+            />
+            <div
+                className="mt-10 aspect-[700/845] w-[88.5625rem] bg-gradient-to-tr from-[#776fff] to-[#ff4694] opacity-40"
+                style={{
+                clipPath:
+                    'polygon(94.1% 44.1%, 100% 31.6%, 97.5% 26.9%, 45.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)',
+                }}
+            />
+            <div
+                className="mt-10 aspect-[938/645] w-[108.5625rem] bg-gradient-to-tr from-[#ff4694] to-[#776fff] opacity-40"
+                style={{
+                clipPath:
+                    'polygon(94.1% 44.1%, 100% 31.6%, 97.5% 26.9%, 45.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 70.2% 62.4%, 52.4% 68.1%, 67.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 27.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)',
+                }}
+            />
+            <div
+                className="mt-10 aspect-[394/945] w-[78.5625rem] bg-gradient-to-tr from-[#776fff] to-[#ff4694] opacity-40"
+                style={{
+                clipPath:
+                    'polygon(44.1% 44.1%, 100% 31.6%, 57.5% 26.9%, 45.5% 0.1%, 30.7% 2%, 72.5% 32.5%, 70.2% 42.4%, 52.4% 68.1%, 67.5% 58.3%, 45.2% 44.5%, 27.5% 76.7%, 0.1% 64.9%, 27.9% 100%, 27.6% 66.8%, 76.1% 97.7%, 74.1% 44.1%)',
+                }}
+            />
+            <div
+                className="mt-10 aspect-[203/1038] w-[108.5625rem] bg-gradient-to-tr from-[#ff4694] to-[#776fff] opacity-40"
+                style={{
+                clipPath:
+                    'polygon(24.1% 44.1%, 100% 31.6%, 97.5% 26.9%, 45.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 70.2% 62.4%, 42.4% 68.1%, 67.5% 58.3%, 45.2% 54.5%, 27.5% 76.7%, 0.1% 24.9%, 27.9% 100%, 47.6% 76.8%, 76.1% 97.7%, 94.1% 44.1%)',
+                }}
+            />
+            </div>
         <div
             className="absolute top-0 left-2 bg-gray-50 w-1"
             ref={timelineLineRef}
         ></div>
         <div className="flex flex-col" ref={timelineContainerRef}>
             <div className="flex-shrink-0 h-screen px-4" ref={el => (pagesRef.current[0] = el)}>
-            <h2 className="flex text-gray-50 text-2xl font-bold mt-6" style={{ fontFamily: "Spinnaker, sans-serif" }}><ChevronRight className='mt-1'/>Our History</h2>
+            <h2 className="flex text-gray-50 text-2xl font-bold" style={{ fontFamily: "Spinnaker, sans-serif" }}><ChevronRight className='mt-1'/>Our History</h2>
                 <HistoryHero />
             </div>
             <div className="flex-shrink-0 h-screen px-4" ref={el => (pagesRef.current[1] = el)}>
@@ -109,6 +150,7 @@ const ClubHistory = () => {
             <h2 className="flex text-gray-50 text-2xl font-bold mt-6" style={{ fontFamily: "Spinnaker, sans-serif" }}><ChevronRight className='mt-1'/>2023</h2>
             
             </div>
+        </div>
         </div>
         </div>
     </div>

@@ -29,35 +29,6 @@ const variants = {
   },
 };
 
-function Card({
-  title,
-  description,
-  image_url,
-}) {
-  return (
-    <motion.div variants={variants.card}>
-      <div className="rounded-sm px-6 py-4 grid grid-cols-1 lg:grid-cols-2 gap-10">
-        <div>
-          <div
-            className={
-              "grid grid-cols-1 my-auto mx-6 flex-1 text-center lg:text-left"
-            }
-          >
-            <p className="text-gray-100 font-semibold py-4 text-3xl" style={{ fontFamily: "Spinnaker, sans-serif" }}>{title}</p>
-            <p className="text-gray-200 mb-4 text-md lg:pr-16" style={{ fontFamily: "Spinnaker, sans-serif" }}> {description}</p>
-          </div>
-        </div>
-        <div className="flex-1">
-          <img
-            src={image_url}
-            className="rounded-md black mx-auto my-auto shadow-xl object-cover"
-          />{" "}
-        </div>
-      </div>
-    </motion.div>
-  );
-}
-
 export default function HistoryCard({ subtitle, title, description }) {
   const textVariant = {
     hidden: { x: -100, opacity: 0 },

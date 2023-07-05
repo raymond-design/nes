@@ -2,6 +2,11 @@
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
 
+html,
+body {
+  background-color: #111827;
+}
+
 @layer utilities {
   .text-title-responsive {
     font-size: clamp(16px, 9vw, 81px);

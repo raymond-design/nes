@@ -15,11 +15,8 @@ export default function Home() {
       />
       <Nav navigation={[
         { name: 'Home', href: '/', current: true },
-        { name: 'Resources', href: '/resources', current: false },
         { name: 'Team', href: '/team', current: false },
-        { name: 'Startups', href: '/startups', current: false },
-        { name: 'Our History', href: '/history', current: false },
-        { name: 'Contact', href: '/contact', current: false },
+        { name: 'History', href: '/history', current: false },
       ]}/>
       <Hero />
       <About />

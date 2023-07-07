@@ -7,7 +7,6 @@ import { faInstagram, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 const links = [
   { name: 'Join The Community', href: '#' },
   { name: 'Meet The Team', href: '/team' },
-  { name: 'Discover Startups', href: '/startups' },
   { name: 'Read Our History', href: '/history' },
 ];
 

@@ -104,7 +104,7 @@ const ClubHistory = () => {
             </div>
             <div className="flex-shrink-0 h-screen px-4" ref={el => (pagesRef.current[2] = el)}>
             <h2 className="flex text-gray-50 text-2xl font-bold mt-6" style={{ fontFamily: "Spinnaker, sans-serif" }}><ChevronRight className='mt-1'/>2010</h2>
-                <HistoryCard subtitle="First Venture" title="HackPSU Created" description="HackPSU is the biggest hackathon that place each semester! It was started by our original members"/>
+                <HistoryCard subtitle="First Venture" title="HackPSU Created" description="HackPSU is the biggest hackathon that takes place each semester! It was started by our original members"/>
             </div>
             <div className="flex-shrink-0 h-screen px-4" ref={el => (pagesRef.current[3] = el)}>
             <h2 className="flex text-gray-50 text-2xl font-bold mt-6" style={{ fontFamily: "Spinnaker, sans-serif" }}><ChevronRight className='mt-1'/>2012</h2>

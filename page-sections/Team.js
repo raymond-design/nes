@@ -10,63 +10,63 @@ const TeamSection = () => {
       title: 'President',
       picture: 'https://robohash.org/Matt.png',
       bio: 'I\'m a fourth year studying Cyber Security Analytics and Operations. I\'ve been involved in a couple of startups in recent years that spiked my interest in entrepreneurship! I enjoy snowboarding, boxing, and working out outside of academics.',
-      linkedin: 'https://www.linkedin.com/in/johndoe'
+      linkedin: 'https://www.linkedin.com/in/matt-christianson/'
     },
     {
       name: 'Bianca',
       title: 'Vice President',
       picture: 'https://robohash.org/Bianca.png',
       bio: 'Bianca is a rising junior figuring out her major but enrolled in the innovation and entrepreneurship minor at Penn State. Currently, as the vice president of the entrepreneurship club she loves helping facilitate connections through the entrepreneurship ecosystem. She has ventured into different aspects of startup culture. You can find her working in the prototyping and manufacturing facility OriginLabs. Bianca has served the entrepreneurship community for almost 2 years and will continue to help Penn State entrepreneurship shine!',
-      linkedin: 'https://www.linkedin.com/in/janesmith'
+      linkedin: 'https://www.linkedin.com/in/bianca-wisekal-a65b1b22b/'
     },
     {
       name: 'Ethan',
       title: 'Marketing and Communications Director',
       picture: 'https://robohash.org/YOUR-TEXT.png',
       bio: 'Second year aerospace engineering major with a minor in entrepreneurship and innovation. I love football and soccer. Go birds.',
-      linkedin: 'https://www.linkedin.com/in/alexjohnson'
+      linkedin: ''
     },
     {
         name: 'Pranav',
         title: 'External Relations and Outreach Specialist',
         picture: 'https://robohash.org/YOUR-TEXT.png',
         bio: 'I\'m Pranav Mishra – an adventurous soul and committed entrepreneur. As the External Director & Outreach Specialist at the Nittany Entrepreneurship Society, I bring a global perspective shaped by my journey through 12 schools across 15 places. Beyond entrepreneurship, I\'m fueled by a love for adventure sports like hiking and rock climbing, and you\'ll often find me in the boxing ring. My dynamic background enriches our outreach efforts, embodying our mission to foster innovation and entrepreneurial success.',
-        linkedin: 'https://www.linkedin.com/in/alexjohnson'
+        linkedin: 'https://www.linkedin.com/in/pm28/'
     },
     {
         name: 'Mehul',
         title: 'Events and Ecosystem Coordinator',
         picture: 'https://robohash.org/YOUR-TEXT.png',
         bio: '',
-        linkedin: 'https://www.linkedin.com/in/alexjohnson'
+        linkedin: 'https://www.linkedin.com/in/mehul-aggarwal-387144223/'
     },
     {
         name: 'Charlotte',
         title: 'Secretary and Community Connector',
         picture: 'https://robohash.org/YOUR-TEXT.png',
         bio: '',
-        linkedin: 'https://www.linkedin.com/in/alexjohnson'
+        linkedin: ''
     },
     {
         name: 'Heer',
         title: 'Treasurer and Financial Strategist',
-        picture: '/alex-johnson.jpg',
+        picture: 'https://robohash.org/YOUR-TEXT.png',
         bio: '',
-        linkedin: 'https://www.linkedin.com/in/alexjohnson'
+        linkedin: ''
     },
     {
       name: 'Ray',
       title: 'Social Chair',
-      picture: '/alex-johnson.jpg',
+      picture: 'https://robohash.org/YOUR-TEXT.png',
       bio: '',
-      linkedin: 'https://www.linkedin.com/in/alexjohnson'
+      linkedin: ''
     },
     {
       name: 'Dennis',
       title: 'Philanthropy Chair',
-      picture: '/alex-johnson.jpg',
+      picture: 'https://robohash.org/YOUR-TEXT.png',
       bio: '',
-      linkedin: 'https://www.linkedin.com/in/alexjohnson'
+      linkedin: ''
     },
   ];
 

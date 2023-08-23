@@ -4,7 +4,7 @@ import { ComputerDesktopIcon, HomeIcon, HeartIcon } from "@heroicons/react/20/so
 import Head from "next/head";
 
 const handleClick = () => {
-  window.open('https://www.google.com', '_blank');
+  window.open('https://groupme.com/join_group/85302502/joHVKt0b', '_blank');
 };
 
 const features = [

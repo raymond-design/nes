@@ -48,7 +48,7 @@ export default function Hero() {
             className="text-gray-100 text-title-responsive mt-2"
             style={{ fontFamily: "Spinnaker, sans-serif" }}
           >
-            Nittany Entrepreneurship Society<span className="text-blue-500">.</span>
+            Nittany Entrepreneur Society<span className="text-blue-500">.</span>
           </div>
           <hr className="my-6 border border-gray-100/50"></hr>
           <div

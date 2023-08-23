@@ -9,63 +9,70 @@ const TeamSection = () => {
       name: 'Matt',
       title: 'President',
       picture: 'https://robohash.org/Matt.png',
-      bio: 'I\'m a fourth year studying Cyber Security Analytics and Operations. I\'ve been involved in a couple of startups in recent years that spiked my interest in entrepreneurship! I enjoy snowboarding, boxing, and working out outside of academics.',
+      bio: 'Matt is a senior studying Cyber Security Analytics and Operations. He has been involved in multiple ventures in recent years including founding GroupIt, a consumer financial startup. He enjoys snowboarding, boxing, and working out outside of academics.',
       linkedin: 'https://www.linkedin.com/in/matt-christianson/'
     },
     {
       name: 'Bianca',
       title: 'Vice President',
       picture: 'https://robohash.org/Bianca.png',
-      bio: 'Bianca is a rising junior figuring out her major but enrolled in the innovation and entrepreneurship minor at Penn State. Currently, as the vice president of the entrepreneurship club she loves helping facilitate connections through the entrepreneurship ecosystem. She has ventured into different aspects of startup culture. You can find her working in the prototyping and manufacturing facility OriginLabs. Bianca has served the entrepreneurship community for almost 2 years and will continue to help Penn State entrepreneurship shine!',
+      bio: 'Bianca is a rising junior in the Ag Business Management major and the innovation and entrepreneurship minor at Penn State. She loves helping facilitate connections through the entrepreneurship ecosystem. Bianca current facilites manufacturing at OriginLabs in downtown State College.',
       linkedin: 'https://www.linkedin.com/in/bianca-wisekal-a65b1b22b/'
     },
     {
       name: 'Ethan',
       title: 'Marketing and Communications Director',
-      picture: 'https://robohash.org/YOUR-TEXT.png',
-      bio: 'Second year aerospace engineering major with a minor in entrepreneurship and innovation. I love football and soccer. Go birds.',
+      picture: 'https://robohash.org/Ethan.png',
+      bio: 'Ethan is a second year aerospace engineering major with a minor in entrepreneurship and innovation. Ethan loves football and soccer. Go birds.',
       linkedin: ''
     },
     {
         name: 'Pranav',
         title: 'External Relations and Outreach Specialist',
-        picture: 'https://robohash.org/YOUR-TEXT.png',
-        bio: 'I\'m Pranav Mishra – an adventurous soul and committed entrepreneur. As the External Director & Outreach Specialist at the Nittany Entrepreneurship Society, I bring a global perspective shaped by my journey through 12 schools across 15 places. Beyond entrepreneurship, I\'m fueled by a love for adventure sports like hiking and rock climbing, and you\'ll often find me in the boxing ring. My dynamic background enriches our outreach efforts, embodying our mission to foster innovation and entrepreneurial success.',
+        picture: 'https://robohash.org/Pranav.png',
+        bio: 'Pranav is the External Director & Outreach Specialist at the Nittany Entrepreneur Society, Pranav brings a global perspective shaped by his journey through 12 schools across 15 places. Beyond entrepreneurship, he\'s fueled by a love for adventure sports like hiking and rock climbing, and you\'ll often find him in the boxing ring.',
         linkedin: 'https://www.linkedin.com/in/pm28/'
     },
     {
         name: 'Mehul',
         title: 'Events and Ecosystem Coordinator',
-        picture: 'https://robohash.org/YOUR-TEXT.png',
-        bio: '',
+        picture: 'https://robohash.org/Mehul.png',
+        bio: 'Mehul is a data science major and rising junior. He is the founder of Therapeutrack, a Nittany AI team.',
         linkedin: 'https://www.linkedin.com/in/mehul-aggarwal-387144223/'
     },
     {
         name: 'Charlotte',
         title: 'Secretary and Community Connector',
-        picture: 'https://robohash.org/YOUR-TEXT.png',
-        bio: '',
-        linkedin: ''
+        picture: 'https://robohash.org/Charlotte.png',
+        bio: 'Charlotte is an industrial engineering major and rising sophomore. She currently serves as secretary of NES.',
+        linkedin: 'https://www.linkedin.com/in/charlotte-patterson-748815285'
     },
     {
-        name: 'Heer',
-        title: 'Treasurer and Financial Strategist',
-        picture: 'https://robohash.org/YOUR-TEXT.png',
-        bio: '',
-        linkedin: ''
+        name: 'Nico',
+        title: 'Previous VP and Advisor',
+        picture: 'https://robohash.org/Nico.png',
+        bio: 'Nico is an advisor, founder, investor, and the previous Vice President of NES. He is a partner at Bullmont Capital and an incoming partner at Dorm Room Fund. Nico previously founded Solis, a personal computing infrastructure startup.',
+        linkedin: 'https://www.linkedin.com/in/nico-symer-32940116b'
     },
     {
       name: 'Ray',
       title: 'Social Chair',
-      picture: 'https://robohash.org/YOUR-TEXT.png',
-      bio: '',
-      linkedin: ''
+      picture: 'https://robohash.org/Ray.png',
+      bio: 'Ray is an engineer, researcher, and data scientist. He was previously a part of CTFGuide, a cyber/edtech startup. Before that, he cofounded Uprads, a data analytics startup. He is also an avid music producer with experience in music publishing and royalties. His main interest areas include b2b security, green/agtech, hydroinformatics, supply chain security, etc.',
+      linkedin: 'https://www.linkedin.com/in/raymondeyan/'
     },
     {
       name: 'Dennis',
-      title: 'Philanthropy Chair',
-      picture: 'https://robohash.org/YOUR-TEXT.png',
-      bio: '',
+      title: 'Treasurer',
+      picture: 'https://robohash.org/Dennis.png',
+      bio: 'Dennis is a senior business entrepreneurship major out of Philadelphia, Pennsylvania. He is involved in Army Rotc, corporate innovation and entrepreneurship society, and the International business association. His entrepreneurial dreams come from his exposure to business through family and the prominence of entrepreneurship in his culture. His main hobbies and passions are skiing, social media marketing, and fitness.',
+      linkedin: ''
+    },
+    {
+      name: 'Khush',
+      title: 'Marketing',
+      picture: 'https://robohash.org/Khush.png',
+      bio: 'Khush leads NES\'s marketing team. He is currently building PROMUNCH Snacks, a nutrition-focused startup.',
       linkedin: ''
     },
   ];

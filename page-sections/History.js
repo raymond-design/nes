@@ -122,34 +122,6 @@ const ClubHistory = () => {
             <h2 className="flex text-gray-50 text-2xl font-bold mt-6" style={{ fontFamily: "Spinnaker, sans-serif" }}><ChevronRight className='mt-1'/>2017</h2>
                 <HistoryCard subtitle="Even More Programs" title="We launch CodeBlue Workshops" description="We also launched Demo Day for people to share about their startups"/>
             </div>
-            <div className="flex-shrink-0 h-screen px-4" ref={el => (pagesRef.current[7] = el)}>
-            <h2 className="flex text-gray-50 text-2xl font-bold mt-6" style={{ fontFamily: "Spinnaker, sans-serif" }}><ChevronRight className='mt-1'/>2017</h2>
-            
-            </div>
-            <div className="flex-shrink-0 h-screen px-4" ref={el => (pagesRef.current[8] = el)}>
-            <h2 className="flex text-gray-50 text-2xl font-bold mt-6" style={{ fontFamily: "Spinnaker, sans-serif" }}><ChevronRight className='mt-1'/>2018</h2>
-            
-            </div>
-            <div className="flex-shrink-0 h-screen px-4" ref={el => (pagesRef.current[9] = el)}>
-            <h2 className="flex text-gray-50 text-2xl font-bold mt-6" style={{ fontFamily: "Spinnaker, sans-serif" }}><ChevronRight className='mt-1'/>2019</h2>
-            
-            </div>
-            <div className="flex-shrink-0 h-screen px-4" ref={el => (pagesRef.current[10] = el)}>
-            <h2 className="flex text-gray-50 text-2xl font-bold mt-6" style={{ fontFamily: "Spinnaker, sans-serif" }}><ChevronRight className='mt-1'/>2020</h2>
-            
-            </div>
-            <div className="flex-shrink-0 h-screen px-4" ref={el => (pagesRef.current[11] = el)}>
-            <h2 className="flex text-gray-50 text-2xl font-bold mt-6" style={{ fontFamily: "Spinnaker, sans-serif" }}><ChevronRight className='mt-1'/>2021</h2>
-            
-            </div>
-            <div className="flex-shrink-0 h-screen px-4" ref={el => (pagesRef.current[12] = el)}>
-            <h2 className="flex text-gray-50 text-2xl font-bold mt-6" style={{ fontFamily: "Spinnaker, sans-serif" }}><ChevronRight className='mt-1'/>2022</h2>
-            
-            </div>
-            <div className="flex-shrink-0 h-screen px-4" ref={el => (pagesRef.current[13] = el)}>
-            <h2 className="flex text-gray-50 text-2xl font-bold mt-6" style={{ fontFamily: "Spinnaker, sans-serif" }}><ChevronRight className='mt-1'/>2023</h2>
-            
-            </div>
         </div>
         </div>
         </div>

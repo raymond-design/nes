@@ -18,7 +18,7 @@ export default function Footer() {
         >
           <div className="flex">
             <div className="text-xl font-light" style={{ fontFamily: "Spinnaker, sans-serif" }}>
-              © Nittany Entrepreneurship Society<span className="text-blue-500">.</span>
+              © Nittany Entrepreneur Society<span className="text-blue-500">.</span>
             </div>
             <div className="flex ml-auto">
               <a

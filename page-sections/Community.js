@@ -5,7 +5,8 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faInstagram, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 
 const links = [
-  { name: 'Join The Community', href: '#' },
+  { name: 'Join The Community', href: 'https://discord.gg/3vhhFg7aUc' },
+  { name: 'Join NES GroupMe', href: 'https://groupme.com/join_group/85302502/joHVKt0b' },
   { name: 'Meet The Team', href: '/team' },
   { name: 'Read Our History', href: '/history' },
 ];
@@ -118,12 +119,12 @@ export default function WorkWithUs() {
                 className="text-xl font-light"
                 style={{ fontFamily: "Spinnaker, sans-serif" }}
               >
-                © Nittany Entrepreneurship Society
+                © Nittany Entrepreneur Society
                 <span className="text-blue-500">.</span>
               </div>
               <div className="flex ml-auto">
                 <a
-                  href="https://www.instagram.com/example"
+                  href="https://www.instagram.com/nes_pennstate/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -133,7 +134,7 @@ export default function WorkWithUs() {
                   />
                 </a>
                 <a
-                  href="https://www.linkedin.com/company/example"
+                  href="https://www.linkedin.com/company/nittanyentrepreneursociety/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -143,7 +144,7 @@ export default function WorkWithUs() {
                   />
                 </a>
                 <a
-                  href="https://orgcentral.psu.edu/"
+                  href="https://orgcentral.psu.edu/organization/nittanyentrepreneursociety"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-lg font-light ml-4 hover:text-blue-500"

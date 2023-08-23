@@ -72,7 +72,7 @@ const TeamSection = () => {
       name: 'Khush',
       title: 'Marketing',
       picture: 'https://robohash.org/Khush.png',
-      bio: 'Khush leads NES\'s marketing team. He is currently building PROMUNCH Snacks, a nutrition-focused startup.',
+      bio: 'Khush is a junior majoring in Corporate Innovation and Entrepreneurship and leads NES\'s marketing team. He is currently building PROMUNCH Snacks, a nutrition-focused startup.',
       linkedin: ''
     },
   ];
